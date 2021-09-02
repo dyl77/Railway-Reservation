@@ -1,0 +1,25 @@
+.dialog-pane .button { 
+    -fx-background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	-fx-background-color: #B0C4DE;
+	-fx-display: inline-block;
+	-fx-cursor: pointer;
+	-fx-color: #B0C4DE;
+	-fx-font-family: Times New Roman;
+	-fx-font-size: 12px;
+	-fx-padding: 9px 15px;
+	-fx-text-decoration: none; 
+}
+
+.dialog-pane .button:hover {
+	-fx-background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	-fx-background-color: #E0FFFF;
+}
+
+.dialog-pane .button:active {
+	-fx-position:relative;
+	-fx-top:1px;
+}
+
+.alert.confirmation.dialog-pane {
+    -fx-graphic: url("trainIcon.png");
+}

@@ -1,0 +1,68 @@
+#adminpane{
+    -fx-background-image: url("ticket_background.jpg");
+	-fx-background-repeat: stretch;   
+	-fx-background-size: 1366 845;
+	-fx-background-position: center center;
+}
+#backpane{
+    -fx-background-image: url("ticket_background.jpg");
+	-fx-background-repeat: stretch;   
+	-fx-background-size: 1366 845;
+	-fx-background-position: center center;
+}
+#trainpane{
+    -fx-background-image: url("ticket_background.jpg");
+	-fx-background-repeat: stretch;   
+	-fx-background-size: 1366 845;
+	-fx-background-position: center center;
+}
+
+.button {
+	-fx-background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	-fx-background-color: #B0C4DE;
+	-fx-display: inline-block;
+	-fx-cursor: pointer;
+	-fx-color: #B0C4DE;
+	-fx-font-family: Times New Roman;
+	-fx-font-size: 12px;
+	-fx-padding: 9px 15px;
+	-fx-text-decoration: none;
+}
+.button:hover {
+	-fx-background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	-fx-background-color: #E0FFFF;
+}
+.button:active {
+	-fx-position:relative;
+	-fx-top:1px;
+}
+
+.label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFFFFF;
+}
+
+.check-box{
+	-fx-font-size: 12px;
+	-fx-text-fill: #FFFFFF;
+}
+
+.check-box .box {
+
+-fx-background-color: white;
+-fx-border-color:grey;
+-fx-border-radius:3px; 
+
+}
+
+.check-box:selected .mark {
+
+-fx-background-color: white;
+
+}
+
+.check-box:selected .box {
+
+-fx-background-color: #778899;
+}

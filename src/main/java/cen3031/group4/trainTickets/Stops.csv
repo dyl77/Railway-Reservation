@@ -1,0 +1,28 @@
+TrainID,From,To,Distance
+104,Wagsville,Owl,250
+104,Wagsville,Sparrow,500
+104,Wagsville,Cockatoo,1000
+104,Bread Ponds City,Cockatoo,1000
+104,Bread Ponds City,Pidgey,500
+104,Bread Ponds City,Kiwi,250
+102,Wagsville,Heronwok,250
+102,Gujranwala,Heronwok,250
+106,Gujranwala,Hoopoes,250
+106,Flipperton,Hoopoes,250
+110,Flipperton,Dodo,250
+110,Flipperton,Penguin,500
+110,Flipperton,Flamingo,1000
+110,Chesterdale,Moron,500
+110,Chesterdale,Flamingo,1000
+108,Gujranwala,Peacock,250
+108,Gujranwala,Dove,500
+108,New Wingsford,Dove,500
+108,New Wingsford,Eagle,250
+112,New Wingsford,Vulture,250
+112,New Wingsford,Crane,500
+112,Chesterdale,Stork,250
+112,Chesterdale,Crane,500
+116,Bread Ponds City,Ostrich,250
+116,Bread Ponds City,Goose,500
+116,Billngton,Goose,500
+116,Billington,Thrush,250

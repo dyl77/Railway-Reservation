@@ -1,0 +1,36 @@
+
+#mainPane{
+	-fx-background-image: url("main_background.jpg");
+	-fx-background-repeat: stretch;   
+	-fx-background-size: 1366 845;
+	-fx-background-position: center center;
+}
+
+.button {
+	-fx-background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	-fx-background-color: #DEB887;
+	-fx-border-radius: 50%;
+	-fx-display: inline-block;
+	-fx-cursor: pointer;
+	-fx-color: #DEB887;
+	-fx-font-family: Times New Roman;
+	-fx-font-size: 12px;
+	-fx-padding: 9px 15px;
+	-fx-text-decoration: none;
+}
+.button:hover {
+	-fx-background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	-fx-background-color: #FFE4C4;
+}
+.button:active {
+	-fx-position:relative;
+	-fx-top:1px;
+}
+
+.label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFFFFF;
+}
+
+
